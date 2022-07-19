@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 550px;
+  min-height: 100vh;
+  font-family: Inter;
+  font-weight: 400;
+  color: #ffcdb2;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d88c9a;
+  height: 55px;
+  min-width: 550px;
+}
+
+nav > h2 {
+  margin:0;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.nav-logo {
+  width: 24px;
+  height: 30px;
+}
+
+.page {
+  padding: 40px 40px 0 100px;
+  display: flex;
+  max-width: 700px;
+}
+
+.page--location-pic {
+  object-fit: cover;
+  width: 125px;
+  height: 168px;
+  float: left;
+  border-radius: 5px;
+}
+
+.page--location-icon {
+  width: 7px;
+  height: 10px;
+}
+
+.page--info--maps {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.page--country {
+  font-size: 11px;
+  letter-spacing: 0.17em;
+  padding-left: 3px;
+  color: #9d8189;
+}
+
+.page--googleMaps {
+  font-size: 11px;
+  text-decoration: underline;
+  color: #918E9B;
+}
+
+.page--googleMaps > a {
+  color: #918E9B;
+  padding-left: 12px;
+}
+
+.page--title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 25px;
+  color: #6d6875;
+}
+
+.page--date, .page--text {
+  font-size: 14px;
+  color: #2B283A;
+}
+
+.page--date {
+  font-weight: 700;
+}
+
+.page--info {
+  padding: 0 40px 0 20px;
+}
